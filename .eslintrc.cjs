@@ -23,6 +23,7 @@ module.exports = {
   plugins: ['react', 'react-refresh'],
   rules: {
     "semi": 0,
+    "comma-dangle": ["error", "always-multiline"],
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
